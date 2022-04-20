@@ -713,3 +713,471 @@ a:hover{
     color: transparent;
     transition: 0.5s all;
 }
+
+/* ---------------------------------------------------------------------- Login.html ---------------------------------------------------------------------- */
+/* --------------------------- Настройка первой секции сайта, ее элементов --------------------------- */
+.LoginHTML .Sec1Div{
+    height: 1310px;
+    width: 1920px;
+    background: url(../images/Login/BackGroundN.png) no-repeat;
+    margin-top: -160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.LoginHTML .Sec1Div h2{
+    text-transform: uppercase;
+    color: #3B668D; 
+    font-size: 72px; 
+    font-weight: 900; 
+    letter-spacing: 0.405em; 
+    font-family: "Roboto", sans-serif;
+    margin-top: 80px;
+}
+.LoginHTML .Sec1Div .FirstPSec3{
+    color: #3b668d;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: uppercase;
+    letter-spacing: 0.905em;
+    margin: 15px 0 124px 0;
+}
+/* ---------------------------------------------------------------------- Price.html ---------------------------------------------------------------------- */
+
+/* --------------------------- Настройка первой секции сайта, ее элементов --------------------------- */
+.PriceHTML .Sec2Div{
+    text-align: center;
+    height: 1279px;
+    width: 1920px;
+}
+.PriceHTML .Sec2Div h2{
+    margin-bottom: 23px;
+}
+.PriceHTML .Sec2Div .FirstPSec3{
+    color: #3b668d;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: uppercase;
+    letter-spacing: 0.905em;
+}
+.PriceHTML .Sec2Div div div .MemberShipFirstCard{
+    transition: 0.3s all;
+    border-radius: 20px;
+    background-color: white;
+    width: 450px;
+    height: 808px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.PriceHTML .RowSec3Div{
+    display: flex;
+    margin-top: 156px;
+}
+.PriceHTML .Sec2Div div div div:hover{
+    filter: drop-shadow(0px 13px 27px rgba(0, 0, 0, 0.1));
+    cursor: pointer;
+    height: 1002px;
+    width: 620px;
+}
+.PriceHTML .Sec2Div div div ul li{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #567796;
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 47px;
+}
+.PriceHTML .Sec2Div div div ul li::after{
+    content: url(../images/index/check.svg);
+    width: 20px;
+    height: 17px;
+}
+.PriceHTML .Sec2Div div div ul{
+    align-self: center;
+    width: 308px;
+}
+.PriceHTML .Sec2Div div div .Sec3Button{
+    width: 0.5px;
+    height: 0.5px;
+    color: transparent;
+    background-color: transparent;
+    transition: 0.4s all;
+}
+.PriceHTML .Sec2Div div div .MoneyBack{
+    font-size: 0.5px;
+    color: transparent;
+    transition: 0.4s all;
+}
+.PriceHTML .Sec2Div div div div:hover .Sec3Button{
+    width: 308px;
+    height: 79px;
+    color: white;
+    background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+    border-radius: 62px;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.PriceHTML .Sec2Div div div div:hover .MemberShipTopFirst{
+    width: 450px;
+}
+.PriceHTML .Sec2Div div div div .MemberShipTopFirst{
+    width: 291px;
+    transition: 0.4s all;
+    height: 140px;
+}
+.PriceHTML .Sec2Div div div div .MemberShipTopSecond{
+    width: 457px;
+    transition: 0.4s all;
+    height: 247px;
+}
+.PriceHTML .Sec2Div div div div:hover .MoneyBack{
+    font-size: 18px;
+    font-weight: 400;
+    color: #567796;
+    font-family: "Comfortaa", sans-serif;
+    margin-top: 47px;
+}
+.PriceHTML .Sec2Div .MemberShipThirdCard{
+    transition: 0.3s all;
+    border-radius: 20px;
+    background-color: white;
+    width: 450px;
+    height: 808px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+.PriceHTML .Sec2Div div div div:hover .MemberShipTopThird{
+    height: 351px;
+}
+.PriceHTML .MemberShipTopThird{
+    height: 351px;
+}
+/* ---------------------------------------------------------------------- Profile.html ---------------------------------------------------------------------- */
+
+/* --------------------------- Настройка первой секции сайта, ее элементов --------------------------- */
+.ProfileHTML .Sec1Div{
+    width: 1920px;
+    height: 1720px;
+    background: url(../images/Profile/BackGroundN.png) no-repeat;
+    margin-top: -160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.ProfileHTML .Sec1Div div .BorderDivProfile{
+    display: flex;
+    width: 313px;
+    height: 164px;
+    background: #FFFFFF;
+    border: 2px solid #F0F0F0;
+    border-radius: 10px;
+    align-items: center;
+    margin: 0 71px; 
+}
+.ProfileHTML .Sec1Div div{
+    display: flex;
+    align-items: center;
+}
+.ProfileHTML .Sec1Div .AllProfileDivs{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px -71px;
+}
+.ProfileHTML .PinkText{
+    font-weight: 400;
+    font-size: 24px;
+    color: #f36dd4;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+.ProfileHTML .BlueText{
+    font-weight: 400;
+    font-size: 18px;
+    color: #3b668d;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+.ProfileHTML .Sec1Div div img{
+    width: 114px;
+    height: 124px;
+    margin-left: 20px;
+}
+.ProfileHTML .Sec1Div div div div{
+    display: flex;
+    flex-direction: column;
+}
+.ProfileHTML .Sec1Div h2{
+    text-transform: uppercase;
+    color: #3B668D; 
+    font-size: 72px; 
+    font-weight: 900; 
+    letter-spacing: 0.405em; 
+    font-family: "Roboto", sans-serif;
+    margin-top: 80px;
+}
+.ProfileHTML .Sec1Div .FirstPSec3{
+    color: #3b668d;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: uppercase;
+    letter-spacing: 0.905em;
+    margin-top: 15px;
+}
+.ProfileHTML .Sec1Div input[type="email"]{
+    width: 736px;
+    height: 100px;
+    margin-bottom: 20px;
+    border: 0px;
+    outline: none;
+    background-color: #f3f3f3;
+    color: #adadad;
+    font-size: 24px;
+    font-weight: 700; 
+    border-radius: 61px;
+    padding-left: 40px;
+    padding-right: 260px;
+    font-family: "Comfortaa", sans-serif;
+}
+.ProfileHTML .Sec1Div input[type="password"]{
+    width: 736px;
+    height: 100px;
+    margin-bottom: 20px;
+    border: 0px;
+    outline: none;
+    background-color: #f3f3f3;
+    color: #adadad;
+    font-size: 24px;
+    font-weight: 700; 
+    border-radius: 61px;
+    padding-left: 40px;
+    font-family: "Comfortaa", sans-serif;
+}
+.ProfileHTML .Sec1Div input[type="password"]::-webkit-input-placeholder{
+    color: #adadad;
+    font-size: 24px;
+    font-weight: 700; 
+    font-family: "Comfortaa", sans-serif;
+}
+.ProfileHTML .Sec1Div input[type="email"]::-webkit-input-placeholder{
+    color: #adadad;
+    font-size: 24px;
+    font-weight: 700; 
+    font-family: "Comfortaa", sans-serif;
+}
+.ProfileHTML .VerifyButton{
+    background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+    border-radius: 62px;
+    margin-left: -260px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Comfortaa", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 79px;
+    margin-top: -20px;
+    transition: 0.5s all;
+}
+.ProfileHTML .BeforeInputTextProfile{
+    width: 214px;
+    text-align: right;
+    color: #3b3f8d;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Comfortaa", sans-serif;
+    margin-right: 44px;
+}
+.ProfileHTML .InstructionsText{
+    color: #bb6df3;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Comfortaa", sans-serif;
+    margin: 31px 0 45px 50px;
+}
+.ProfileHTML .SaveProfileButton{
+    background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+    border-radius: 62px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Comfortaa", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 79px;
+    transition: 0.5s all;
+}
+.ProfileHTML .GrayText{
+    font-weight: 700;
+    color: #adadad;
+    font-size: 18px;
+    font-family: "Comfortaa", sans-serif;
+}
+/* ---------------------------------------------------------------------- Register.html ---------------------------------------------------------------------- */
+.RegisterHTML .Sec1Div{
+    width: 1920px;
+    height: 1350px;
+    background: url(../images/Register/BackGroundN.png) no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -160px;
+}
+.RegisterHTML .Sec1Div .NoRegisterDiv{
+    display: flex;
+    align-items: center;
+    margin-left: -175px;
+}
+.RegisterHTML .Sec1Div h2{
+    text-transform: uppercase;
+    color: #3B668D; 
+    font-size: 72px; 
+    font-weight: 900; 
+    letter-spacing: 0.405em; 
+    font-family: "Roboto", sans-serif;
+    margin-top: 80px;
+}
+.RegisterHTML .Sec1Div .FirstPSec3{
+    color: #3b668d;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: uppercase;
+    letter-spacing: 0.905em;
+    margin-top: 15px;
+    margin-bottom: 88px;
+}
+.RegisterHTML .Sec1Div input[type="email"]{
+    width: 630px;
+    height: 100px;
+    margin-bottom: 20px;
+    border: 0px;
+    outline: none;
+    background-color: #f3f3f3;
+    color: #adadad;
+    font-size: 24px;
+    font-weight: 700; 
+    border-radius: 61px;
+    padding-left: 40px;
+    padding-right: 260px;
+    font-family: "Comfortaa", sans-serif;
+}
+.RegisterHTML .Sec1Div input[type="password"]{
+    width: 630px;
+    height: 100px;
+    margin-bottom: 20px;
+    border: 0px;
+    outline: none;
+    background-color: #f3f3f3;
+    color: #adadad;
+    font-size: 24px;
+    font-weight: 700; 
+    border-radius: 61px;
+    padding-left: 40px;
+    font-family: "Comfortaa", sans-serif;
+}
+.RegisterHTML .Sec1Div input[type="password"]::-webkit-input-placeholder{
+    color: #adadad;
+    font-size: 24px;
+    font-weight: 700; 
+    font-family: "Comfortaa", sans-serif;
+}
+.RegisterHTML .Sec1Div input[type="email"]::-webkit-input-placeholder{
+    color: #adadad;
+    font-size: 24px;
+    font-weight: 700; 
+    font-family: "Comfortaa", sans-serif;
+}
+.RegisterHTML .Sec1Div .NoRegisterDiv p{
+    width: 175px;
+    color: #3b3f8d;
+    font-family: "Comfortaa", sans-serif;
+    text-align: right;
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 45px;
+}
+.RegisterHTML .Sec1Div .RefreshIng{
+    width: 42px;
+    height: 42px;
+    margin-left: 13px;
+    display: flex;
+    animation: rotating 2s infinite;
+}
+@keyframes rotating {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.RegisterHTML .Sec1Div .RefreshIng:hover{
+    cursor: pointer;
+}
+.RegisterHTML .Sec1Div input[type="text"]{
+    width: 286px;
+    height: 100px;
+    margin-left: 31px;
+    border: 0px;
+    outline: none;
+    background-color: #f3f3f3;
+    color: #adadad;
+    font-size: 24px;
+    font-weight: 700; 
+    border-radius: 61px;
+    padding-left: 40px;
+    font-family: "Comfortaa", sans-serif;
+}
+.RegisterHTML .Sec1Div input[type="text"]::-webkit-input-placeholder{
+    color: #adadad;
+    font-size: 24px;
+    font-weight: 700; 
+    font-family: "Comfortaa", sans-serif;
+}
+.RegisterHTML .RegisterButton{
+    width: 350px;
+    height: 79px;
+    background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+    border-radius: 62px;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all;
+}
+.RegisterHTML .RegisterDiv p{
+    margin-left: 10px;
+    margin-right: 54px;
+    color: #adadad;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Comfortaa", sans-serif;
+}
+.RegisterHTML .RegisterDiv{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}

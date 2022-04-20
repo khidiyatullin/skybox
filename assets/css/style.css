@@ -713,7 +713,6 @@ a:hover{
     color: transparent;
     transition: 0.5s all;
 }
-
 /* ---------------------------------------------------------------------- Login.html ---------------------------------------------------------------------- */
 /* --------------------------- Настройка первой секции сайта, ее элементов --------------------------- */
 .LoginHTML .Sec1Div{
@@ -742,7 +741,65 @@ a:hover{
     line-height: 150%;
     text-transform: uppercase;
     letter-spacing: 0.905em;
-    margin: 15px 0 124px 0;
+    margin: 15px 0 88px 0;
+}
+.LoginHTML .Sec1Div input{
+    width: 630px;
+    height: 100px;
+    border: 0px;
+    border-radius: 61px;
+    background-color: #f3f3f3;
+    outline: none;
+    color: #adadad;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Comfortaa", sans-serif;
+    margin-bottom: 37px;
+    padding-left: 40px;
+}
+.LoginHTML .Sec1Div input::-webkit-input-placeholder{
+    color: #adadad;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Comfortaa", sans-serif;
+}
+.LoginHTML .Sec1Div div p{
+    width: 118px;
+    margin-right: 45px;
+    color: #3b3f8d;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+    margin-left: -118px;
+}
+.LoginHTML .Sec1Div div{
+    display: flex;
+    align-items: center;
+    font-family: "Comfortaa", sans-serif;
+}
+.LoginHTML .Sec1Div .LoginButton{
+    background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+    border-radius: 62px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Comfortaa", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 79px;
+    margin-top: 21px;
+    transition: 0.5s all;
+    margin-bottom: 35px;
+}
+.LoginHTML .ForgetPassword{
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    color: #adadad;
+    font-family: "Comfortaa", sans-serif;
+    transition: 0.5s all;
 }
 /* ---------------------------------------------------------------------- Price.html ---------------------------------------------------------------------- */
 
